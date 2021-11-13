@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="currencyconverter.css">
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+
+        <form action="#">
+            <div class="row">
+
+                <div class="amount"><input type="text" value="1"></div>
+                <div class="from">
+
+                    <div class="select-box">
+                        <!-- <img src="https://www.countryflags.io/us/flat/64.png" alt="flag"> -->
+                        <select></select>
+
+
+
+                    </div>
+                </div>
+
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <div class="select-box">
+                        <!-- <img src="https://www.countryflags.io/in/flat/64.png" alt="flag"> -->
+                        <select></select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="exchange-rate">Get Exchange Here</div>
+            <div class="btn">
+                <button>Convert</button>
+            </div>
+        </form>
+    </div>
+    <script src="country_code.js"></script>
+    <script src="currencyconverter.js"></script>
+</body>
+
+</html>

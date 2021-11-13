@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(207, 233, 148, 1) 100%);
+}
+
+.wrapper {
+    background: #FFFFFF;
+    width: 768px;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.wrapper header {
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+    position: relative;
+}
+
+.wrapper header::after {
+    content: "";
+    width: 200px;
+    height: 7px;
+    display: block;
+    background: #305F72;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 5px;
+}
+
+.wrapper .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+form input {
+    height: 50px;
+    font-size: 17px;
+    padding: 0 1rem;
+    border: 1px solid #999;
+    /* text-align: center; */
+}
+
+form input:focus {
+    padding: 0 1rem;
+    border: 2px solid red;
+}
+
+.select-box {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-box select {
+    width: 100px;
+    margin: 1rem;
+}
+
+.select-box select::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.select-box select::-webkit-scrollbar-track {
+    background: white;
+}
+
+.select-box select::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 8px;
+}
+
+.exchange-rate {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.icon i {
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+.btn {
+    text-align: center;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+}
